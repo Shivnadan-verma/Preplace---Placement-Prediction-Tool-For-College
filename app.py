@@ -12,7 +12,7 @@ app = Flask(__name__)
 # Flask-MySQLdb Configuration for `flask_app`
 app.config['MYSQL_HOST'] = 'localhost'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'amar'  
+app.config['MYSQL_PASSWORD'] = 'abc'  
 app.config['MYSQL_DB'] = 'flask_app'
 mysql = MySQL(app)
 
